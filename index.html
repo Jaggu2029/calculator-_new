@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <!-- Display -->
+        <div id="display"></div>
+
+
+        <!-- Buttons -->
+
+        <button class="operator" onclick="calculate('+')">+</button>
+        <button onclick="calculate('7')">7</button>
+        <button onclick="calculate('8')">8</button>
+        <button onclick="calculate('9')">9</button>
+
+        <button class="operator" onclick="calculate('-')">-</button>
+        <button onclick="calculate('4')">4</button>
+        <button onclick="calculate('5')">5</button>
+        <button onclick="calculate('6')">6</button>
+
+        <button class="operator" onclick="calculate('*')">*</button>
+        <button onclick="calculate('1')">1</button>
+        <button onclick="calculate('2')">2</button>
+        <button onclick="calculate('3')">3</button>
+
+        <button class="operator" onclick="calculate('/')">/</button>
+        <button onclick="calculate('0')">0</button>
+        <button onclick="calculate('.')">.</button>
+        <button onclick="calculate('=')">=</button>
+
+        <button class="operator clear" onclick="calculate('C')">C</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
